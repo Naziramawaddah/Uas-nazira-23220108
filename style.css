@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+nav {
+    background-color: #3b4997;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 9999;
+}
+
+.logo {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.menu {
+    margin-left: 800px;
+    padding-top: 30px;
+
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover {
+    color: lightskyblue;
+    font-style: italic;
+}
+
+.benner {
+    background-color: #3c68c7;
+    height: 600px;
+    text-align: center;
+    color: white;
+}
+
+.benner img {
+    border-radius: 150px;
+    height: 150px;
+    border: 6px solid white;
+    margin-top: 150px;
+}
+
+.benner h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.benner button {
+    margin-top: 60px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+}
+
+.benner button:hover {
+    background-color: #3c68c7;
+    border: 1px solid white;
+    color: white;
+}
+
+h1 span::before{
+    content: '';
+    animation: gerak infinite 8s ease;
+    transform: translateY(-50%);
+    color: lightblue;
+    font-size:  60px;
+}
+
+@keyframes gerak {
+    0% {
+        content: 'Selamat Datang';
+    }
+    50% {
+        content: 'Saya Nazira Mawaddah';
+    }
+    100% {
+        content: 'Terimakasih Sudah Singgah';
+    }
+}
+
+.pendidikan {
+    text-align: center;
+    color: #4d4d4d;
+    margin-top: 50px;
+    align-content: center;
+}
+
+.kiri, .tengah, .kanan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 330px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 70px 20px 20px 50px;
+    float: left;
+    border-radius: 20px;
+}
+
+.kiri:hover, .tengah:hover, .kanan:hover {
+    background-color: #3c68c7;
+    color: white;
+} 
+
+.pendidikan h3, p{
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding-top: 0px 20px;
+}
+
+.hobi {
+    text-align: center;
+    color:rgb(42, 46, 49);
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+.hobi img {
+    border-radius: 100px;
+    height: 130px;
+    margin-top: 15px;
+}
+
+.hobi h3, p{
+    margin-top: 15px;
+    margin-bottom: 13px;
+    padding-top: 0px 20px;
+}
+
+.kontak img {
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.kontak {
+    text-align: center;
+    color: #4d4d4d;
+    margin-top: 500px;
+}
+
+.footer {
+   background-color: gray;
+   width: 100%;
+   height: 40px;
+   color: white;
+   padding: 3px;
+   margin: 50px auto 0px;
+   text-align: center;
+}
